@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-top: 1em;
+}
+
+html{
+    scroll-behavior: smooth;
+    background-image: url("img/temp-about-bg.png");
+    background-size:cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    align-items: baseline;
+    height: 10vh;
+    background-color: rgba(255, 255, 255, 0.266);
+}
+
+.logo-text{
+    margin-top: 2vh;
+    padding-left: 0.5em;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.logo-subtext{
+    padding-left: 3px;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.menu{
+    position: absolute;
+    right: 0px;
+    margin-top: 3.5vh;
+}
+
+.list{
+    display: flex;    
+}
+
+.list-items a{
+    color: black;
+    font-size: 1.25em;
+    font-weight: 600;
+    transition: 0.4s;
+    margin-right: 2em;
+}
+
+.list-items a:hover{
+    color: rgb(148, 184, 70);
+}
+
+.icon{
+    padding-right: 2em;
+    position: relative;
+}
+
+.line-menu{
+    height: 28px;
+    width: 32px;
+    display: none;
+}
+
+.layer1, .layer2, .layer3{
+   background: black;
+   height: 4px;
+   margin-top: 4px;
+   width: 100%;
+   border-radius: 10px;
+}

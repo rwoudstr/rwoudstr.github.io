@@ -15,3 +15,6 @@ __notable features:__
 This page is an archive of cool personal projects that are not computing-science related.   
 __notable features:__  
   * nothing yet!  
+
+## SOURCES & CITATIONS
+https://www.w3schools.com/js/

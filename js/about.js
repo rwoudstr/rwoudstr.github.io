@@ -1,26 +1,22 @@
-var id = null;
+//import * as THREE from 'three';
 
 /**
- * Animate transition to different image with
- * water ripple effect
+ * Change supplied image to ____ image
+ * when mouse over an icon
+ * 
+ * img: image to change
  */
-function waterTransition() {
-    var element = document.getElementById("animation");
-    id = setInterval(animFrame, 5)
-    function animFrame() {
-        if (true==false) {
-            clearInterval(id);
-        } else {
-            pass;
-        }
-    }
+function setProjectsImg(img) {
+    img.src="./img/plane.svg";
+    //document.getElementById(img).src='/img/plane.svg';
 }
 
 /**
- * Change image to projects image
- * when mouse over projects icon
+ * Change supplied image to ____ image
+ * when mouse out 
+ * 
+ * img: image to change
  */
-function setProjectsImg() {
-    document.getElementById('bird').src='img/temp-hobbies-bg.png';
+function revertImage(img) {
+    img.src="./img/bird.svg";
 }
-

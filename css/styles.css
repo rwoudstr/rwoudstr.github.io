@@ -88,8 +88,37 @@ ul{
     float: left;
     width: 50%;
     margin-top: 80px;
-    padding: 0 20px;
+    padding: 0 10vw;
 }
+#wrap { position: relative; }
+.image-behind, .icon1, .icon2, .icon3, .icon4 {
+    display: block;
+}
+.icon1 {
+    position: absolute;
+    top: 5vw;
+    left:7vw;
+    border: 1px blue solid;
+}
+.icon2 {
+    position: absolute;
+    top: -1.5vw;
+    left: 17vw;
+    border: 1px green solid;
+}
+.icon3 {
+    position: absolute;
+    top: -1.5vw;
+    left: 27vw;
+    border: 1px red solid;
+}
+.icon4 {
+    position: absolute;
+    top: 5vw;
+    left: 37vw;
+    border: 1px yellow solid;
+}
+
 
 .right-col {
     float: left;

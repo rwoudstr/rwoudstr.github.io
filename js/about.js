@@ -6,9 +6,9 @@
  * 
  * img: image to change
  */
-function setProjectsImg(img) {
-    img.src="./img/plane.svg";
-    //document.getElementById(img).src='/img/plane.svg';
+function setProjectsImg(img, source) {
+    //img.src="./img/temp-about-bg.png";
+    img.src=source;
 }
 
 /**
@@ -18,5 +18,5 @@ function setProjectsImg(img) {
  * img: image to change
  */
 function revertImage(img) {
-    img.src="./img/bird.svg";
+    img.src="./img/temp.svg";
 }

@@ -1,15 +1,15 @@
 //import * as THREE from 'three';
 
 /**
- * Change supplied image to ____ image
+ * Change indicated old image to supplied new image
  * when mouse over an icon
  * 
  * img: image to change
  */
-function setProjectsImg(img, source) {
-    //img.src="./img/temp-about-bg.png";
-    img.src=source;
+function setProjectsImg(obj, newImg) {
+    obj.src=newImg;
 }
+
 
 /**
  * Change supplied image to ____ image

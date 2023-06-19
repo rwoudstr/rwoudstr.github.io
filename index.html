@@ -3,9 +3,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>ROBYN</title>
 </head>
+
+
 <body>
     <nav class="navbar">
         <div class="line-menu">
@@ -29,26 +31,65 @@
                 <li class="list-items"><a href="#">
                     <img
                     src="img/bird.png"
-                    alt="line drawing of a round bird"
-                    srcset="img/bird.svg"
-                    style="width:24px; height: 24px;">
+                    alt="line drawing of a paper airplane"
+                    srcset="img/plane.svg"
+                    style="width:24px">
                 </a></li>
             </ul>
-            
         </div>
-
     </nav>
-    
-    <h1>UNDER CONSTRUCTION!</h1>
-    <p><i>please check back later</i></p>
 
-    <img
+
+    <div class="left-col">       
+        <img id="about-icon"
+        onmouseover="setProjectsImg(bird);"
+        onmouseout="revertImage(bird)"
         src="img/bird.png"
         alt="line drawing of a round bird"
-        srcset="img/bird.svg"
-        style="width:200px; height: 125px;" />
+        style="width:20px" />
 
-    <script type="text/javascript" src="app.js"></script>
+        <img id="projects-icon"
+        onmouseover="setProjectsImg(bird)"
+        onmouseout="revertImage(bird)"
+        src="img/bird.png"
+        alt="line drawing of a round bird"
+        style="width:20px" />
+
+        <img id="hobbies-icon"
+        onmouseover="setProjectsImg(bird);"
+        onmouseout="revertImage(bird)"
+        src="img/bird.png"
+        alt="line drawing of a round bird"
+        style="width:20px" />
+
+        <img id="contact-icon"
+        onmouseover="setProjectsImg(bird);"
+        onmouseout="revertImage(bird)"
+        src="img/plane.svg"
+        alt="line drawing of a paper airplane"
+        style="width:20px" />
+
+        <img id="bird"
+        src="img/bird.png"
+        alt="line drawing of a round bird"
+        style="width:200px" />
+    </div>
+
+
+    <div class="right-col">
+        <h1 style="font-size:5vw">UNDER CONSTRUCTION!</h1>
+        <p><i>// please check back later</i></p>
+        <h1 style="font-size:5vw">ROBYN</h1>
+        <p><i>subheading</i></p>
+    </div>
+
+
+    <script type="text/javascript"
+    src="js/about.js">
+    </script>
+
+    <footer>
+    </footer>
   
 </body>
 </html>

@@ -8,7 +8,7 @@
 
 html{
     scroll-behavior: smooth;
-    background-image: url("../img/temp-about-bg.png");
+    background-image: url("../img/temp-hobbies-bg.png");
     background-size:cover;
 }
 
@@ -33,13 +33,13 @@ ul{
     background-color: rgba(255, 255, 255, 0.266);
 }
 
-/* ROBYN.woudstra text in top left */
 .logo-text{
     margin-top: 15px;
     padding-left: 0.75em;
     font-size: 1.5em;
     font-weight: 800;
 }
+
 .logo-subtext{
     padding-left: 3px;
     font-size: 1.5em;
@@ -65,7 +65,7 @@ ul{
     margin-right: 2em;
 }
 .list-item a:hover{
-    color: rgb(148, 184, 70);
+    color: white;
 }
 
 /* highlighted list item (current page) */
@@ -78,7 +78,7 @@ ul{
     text-decoration: underline;
 }
 .list-item-highlight a:hover{
-    color: rgb(148, 184, 70);
+    color: white;
 }
 
 .icon{
@@ -111,36 +111,6 @@ ul{
     margin-top: 80px;
     padding: 0 20px;
     text-align: left;
-}
-
-/* icons around main image with hover effect */
-.icon1{
-    position: absolute;
-    top: 5vw;
-    left:7vw;
-    border: 1px blue solid;
-    width: 6vw;
-}
-.icon2{
-    position: absolute;
-    top: -1.5vw;
-    left: 16vw;
-    border: 1px green solid;
-    width: 6vw;
-}
-.icon3{
-    position: absolute;
-    top: -1.5vw;
-    left: 28vw;
-    border: 1px red solid;
-    width: 6vw;
-}
-.icon4{
-    position: absolute;
-    top: 5vw;
-    left: 37vw;
-    border: 1px yellow solid;
-    width: 6vw;
 }
 
 @media only screen and (max-width: 600px) {

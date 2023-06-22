@@ -92,41 +92,34 @@ ul{
 
 /* row to hold columns */
 .row:after{
-    width: 100%;
-    height: fit-content;
     content: "";
     display: table;
     clear: both;
 }
+.column{
+    padding: 0 25px;
+    margin-top: 80px;
+}
 /* column indicating hobby type */
-.col1{
-    position: relative;
-    float: left;
-    width: 33%;
-    padding: 0 25px;
-    margin-top: 80px;
+.left {
+    width: 50%;
 }
-/* column with scrollable project images */
-.col2{
-    position: relative;
-    float: left;
-    width: 33%;
-    margin-top: 80px;
-    padding: 0 25px;
+/* columns with scrollable project images & project description */
+.centre, .right {
+    width: 25%;
 }
-/* column with project description */
-.col3{
-    position: relative;
-    float: left;
-    width: 33%;
-    padding: 0 25px;
-    margin-top: 80px;
+
+/* if screen < 600px wide, columns stack */
+@media screen and (max-width: 600px) {
+    .column{
+        width: 100%;
+    }
 }
 
 /* scrollable container for images */
 .image-box{
     position: relative;
-    width: 500px;
+    width: 400px;
     height: 50vh;
     background-color: rgb(79, 97, 26);
     overflow-y: scroll;

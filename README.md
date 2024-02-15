@@ -11,8 +11,8 @@ This page showcases my favourite personal and school projects.
 __notable features:__  
   * nothing yet!  
 
-## HOBBIES  
-This page is an archive of cool personal projects that are not computing-science related.   
+## GANTT  
+This page hosts a tool to build GANTT charts, as per the specs given in BIOIN 401.   
 __notable features:__  
   * nothing yet!  
 
